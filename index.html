@@ -8,19 +8,20 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <!-- bootstrap end -->
     <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="shortcut icon" href="./assets/image/letter-p-logo-vector-illustration-design_9999-19261.avif" type="image/x-icon">
     <title>Portfolio Creator</title>
 </head>
 <body>
     <!-- HEADER START -->
-     <header>
+     <header class="header">
         <nav class="navbar navbar-expand-lg ">
-            <div class="container-fluid">
+            <div class="container-fluid justify-content-between">
               <a class="navbar-brand" href="#"><img src="./assets/svg/logo.svg" alt="profile"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse " id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
                     <a class="nav-link active" aria-current="page" href="#">About</a>
                   </li>
@@ -49,7 +50,7 @@
     <!-- HEADER END -->
 
    <!-- SECTION START -->
-   <section class="introduction container row">
+   <section class="introduction  row">
 <div class="intro-left-side col-12 col-md-6 col-lg-7">
     <h1><span>I design products</span><br>that delight and <br>inspire people</h1>
     <p>Hi! I’m Jake, a product designer based in Berlin. I create user-friendly interfaces for fast-growing startups.</p>
@@ -64,30 +65,34 @@
    <!-- SECTION END -->
 
    <!-- SECTION START -->
-   <section class="trusted-by container row">
+   <section class="trusted-by container ">
     <h5 class="trusted-text">Trusted by</h5>
-<div class="col-12 col-md-6 col-lg-3">
-<img src="./assets/svg/partner1.svg" alt="">
-</div>
-<div class="col-12 col-md-6 col-lg-3">
-    <img src="./assets/svg/partner2.svg" alt="">
-    </div>
-    <div class="col-12 col-md-6 col-lg-3">
-        <img src="./assets/svg/partner3.svg" alt="">
+
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-3">
+        <img src="./assets/svg/partner1.svg" alt="">
         </div>
         <div class="col-12 col-md-6 col-lg-3">
-            <img src="./assets/svg/partner4.svg" alt="">
+            <img src="./assets/svg/partner2.svg" alt="">
             </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <img src="./assets/svg/partner3.svg" alt="">
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                    <img src="./assets/svg/partner4.svg" alt="">
+                    </div>
+    </div>
+
    </section>
    <!-- SECTION END -->
-<!-- SECTION START -->
-<section class="service">
+
+   <!-- SECTION START -->
+   <section class="service container">
     <h6>Services</h6>
     <h2>Design that solves problems,<br> one product at a time.</h2>
-    <div class="container row services-cards">
-        
-            
-                <div class="col-12 col-md-6 col-lg-4 kart ">
+    
+<div class=" row services-cards">
+      <div class="col-12 col-md-6 col-lg-4 kart ">
         <img src="./assets/svg/service1.svg" alt="">
         <h3>What I can do for you</h3>
         <p>Faster, better products that your<br> users love. Here's all the services I<br> provide:</p>
@@ -118,11 +123,75 @@
             <li>Efficient and maintainable</li>
         </ul>
     </div>
-    <div></div>
+    
     </div>
     
-</section>
-<!-- SECTION END -->
+    
+    
+   </section>
+   <!-- SECTION END -->
+
+   <!-- SECTION START -->
+   <section>
+    <div class="projects-section">
+      <h5>PROJECTS</h5>
+      <div class="results">
+        <h1>I bring results.
+          My clients are proof.
+        </h1>
+        <button>View all projects</button>
+      </div>
+      <div class="projects-cards-section row">
+        <div class="kart_ col-12 col-md-6 col-lg-5" >
+          <div class="card__top">
+            <img src="./assets/svg/project1.svg" alt="">
+          </div>
+          <div class="card__bottom">
+            <h5>Branding</h5>
+            <h2>Soulful Rebrand</h2>
+            <a href="#">View projects</a>
+            <img src="./assets/svg/right.svg" alt="">
+          </div>
+        </div>
+        <div class="kart_ col-12 col-md-6 col-lg-5" >
+          <div class="card__top">
+            <img src="./assets/svg/project2.svg" alt="">
+          </div>
+          <div class="card__bottom">
+            <h5>Product Design</h5>
+            <h2>Datadash Product design</h2>
+            <a href="#">View projects</a>
+            <img src="./assets/svg/right.svg" alt="">
+          </div>
+        </div>
+        <div class="kart_ col-12 col-md-6 col-lg-2">
+          <div class="card__top">
+            <img src="./assets/svg/project3.svg" alt="">
+          </div>
+          <div class="card__bottom">
+            <h5>Web Design</h5>
+            <h2>Maize Website Design</h2>
+            <a href="#">View projects</a>
+            <img src="./assets/svg/right.svg" alt="">
+          </div>
+        </div>
+        <div class="control-btns">
+          <button><img src="./assets/svg/prevbtn.svg" alt=""></button>
+        <button><img src="./assets/svg/nextbtn.svg" alt=""></button>
+        </div>
+        
+      </div>
+    </div>
+    <div class="latest-blog">
+      <div class="left-side">
+        
+      </div>
+
+
+      <div class="right-side"></div>
+    </div>
+   </section>
+   <!-- SECTION END -->
 
 
 

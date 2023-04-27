@@ -6,17 +6,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
 body{
     font-family: 'Roboto', sans-serif;
+    overflow-x: hidden;
+}
+.header{
+    padding: 0 50px;
 }
 .intro-left-side {
     padding: 117px;
     min-width: 600px;
+    
 }
 .intro-left-side h1{
     font-size: 4.5rem;
     font-weight: 700;
+    width: 700px;
+    
 }
 .intro-left-side h1 span{
     color: #FF8A56;
+
 }
 .intro-left-side p{
     color: #ccc;
@@ -83,6 +91,55 @@ ul{
     box-shadow: 10px 10px 30px #5c5959cc;
     transform: rotateY(180deg);
 }
+.results{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.card__top {
+    width: 100%;
+    height: 305px;
+}
+.card__top img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.projects-section{
+    margin-left: 112px;
+}
+.control-btns{
+    display: flex;
+    justify-content: flex-end;
+}
+.control-btns button{
+     padding: 10px;
+}
+.control-btns button:last-child{
+    margin-right: 50px;
+    margin-left: 7px;
+   
+}
+@media(max-width:768px){
+    .projects-section{
+        margin-left: 0;
+}
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* .flip-card{
 background-color: transparent;
 border: 1px solid #f1f1f1;
@@ -158,8 +215,14 @@ backface-visibility: hidden;
 .intro-left-side{
     background-color: teal;
     text-align: center;
+    
+}
+.intro-left-side h1 {
+font-size: 3.5rem;
+text-align:start;
 }
 .intro-right-side{
-    margin-top: 70px;
+    padding-top: 70px;
+    padding-left: 70px;
 }
 }
