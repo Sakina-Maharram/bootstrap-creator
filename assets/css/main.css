@@ -29,7 +29,7 @@ a:hover {
 .intro-left-side h1 {
 	font-size: 4.5rem;
 	font-weight: 700;
-	width: 700px;
+	
 }
 .intro-left-side h1 span {
 	color: #ff8a56;
@@ -232,7 +232,7 @@ ul {
 
 @media (max-width: 768px) {
 	.header {
-		padding: 10px 40px;
+		padding: 10px ;
 	}
 	.header_btn {
 		margin-left: 20px;
@@ -240,17 +240,19 @@ ul {
 	.introduction {
 		align-items: center;
 		display: flex;
-		justify-content: center;
+		flex-direction: column;
+		
 	}
 	.intro-left-side {
 		min-width: 500px;
-
-		text-align: start;
-		padding: 30px;
+      padding: 40px;
+		text-align: center;
+		
 	}
 	.intro-left-side h1 {
 		font-size: 2.5rem;
-       padding-left: 45px;
+		
+      
 	}
 	.intro-left-side p {
 		font-size: 14px;
@@ -278,6 +280,9 @@ ul {
 	.projects-section h5 {
 		padding: 0 30px;
 	}
+	.project_btn{
+		padding: 10px;
+	}
 	.results {
 		padding: 0 30px;
 	}
@@ -296,7 +301,7 @@ ul {
 	}
 }
 
-@media (min-width: 800px) and (max-width: 1200px) {
+@media (min-width: 768px) and (max-width: 1200px) {
 	.introduction {
 		display: flex;
 		flex-direction: column;
@@ -337,7 +342,41 @@ ul {
 		font-size: 40px;
 	}
 }
+@media(max-width:440px){
+	.header{
+		padding: 10px 0;
 
+	}
+	.intro-left-side {
+		text-align: center;
+		
+	}
+	.intro-left-side h1 {
+		font-size: 2rem;
+		text-align: start;
+	}
+	.intro-right-side {
+		padding-top: 50px;
+		padding-left: 0px;
+	}
+	.intro-left-side p {
+		font-size: 14px;
+		text-align: start;
+        padding: 0 ;
+		
+	}
+	.btn-right{
+		padding: 5px;
+		font-size: 14px;
+		margin-left: 0;
+		
+	}
+	.links{
+		font-size: 14px;
+
+	}
+	
+}
 /* .flip-card{
 background-color: transparent;
 border: 1px solid #f1f1f1;
